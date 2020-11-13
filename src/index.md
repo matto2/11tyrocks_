@@ -6,7 +6,7 @@ templateEngineOverride: njk,md
 
 <button>Independent developer</button>  &nbsp;&nbsp; Normal button 
 
-<button class="button-large">Independent developer</button>  &nbsp;&nbsp; Normal button 
+<button class="button-large">Independent developer</button>  &nbsp;&nbsp; Normal button LARGE
 
 
 <button class="disabled">Register</button>  &nbsp;&nbsp; Disabled button 
