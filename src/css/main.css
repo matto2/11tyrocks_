@@ -880,3 +880,15 @@ details :focus {
 h3.with-deets {
   margin-bottom: 0rem;
 }
+
+.disabled {
+  opacity: .2;
+  pointer-events:none;
+}
+
+.disabled:focus {
+  border: none;
+  outline: none;
+  background-color: #2030bc;
+  border: 1px solid #2030bc;
+}

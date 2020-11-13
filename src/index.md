@@ -4,11 +4,13 @@ layout: base.njk
 templateEngineOverride: njk,md
 ---
 
-<button>Button text</button>
+<button>Independent developer</button>  &nbsp;&nbsp; Normal button 
 
-<button class="accent-button">Button</button>
+<button class="disabled">Register</button>  &nbsp;&nbsp; Disabled button 
 
-<button class="muted-button">White-Button</button>
+<button class="accent-button">Get Started</button>  &nbsp;&nbsp; Accent button 
+
+<!-- <button class="muted-button">Register</button> -->
 
 
 ## Blog Posts
