@@ -639,7 +639,7 @@ dd {
   color: #ffffff;
   font-weight: 600;
   font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 1.125rem;
+  font-size: .9375rem;
   text-transform: none;
   padding: .75rem 1.25rem;
   margin: 0 0 .5rem 0;
@@ -891,4 +891,8 @@ h3.with-deets {
   outline: none;
   background-color: #2030bc;
   border: 1px solid #2030bc;
+}
+
+.button-large {
+  font-size: 1.125rem;
 }

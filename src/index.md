@@ -6,9 +6,14 @@ templateEngineOverride: njk,md
 
 <button>Independent developer</button>  &nbsp;&nbsp; Normal button 
 
+<button class="button-large">Independent developer</button>  &nbsp;&nbsp; Normal button 
+
+
 <button class="disabled">Register</button>  &nbsp;&nbsp; Disabled button 
 
 <button class="accent-button">Get Started</button>  &nbsp;&nbsp; Accent button 
+
+<button class="accent-button button-large">Get Started</button>  &nbsp;&nbsp; Accent button LARGE
 
 <!-- <button class="muted-button">Register</button> -->
 
