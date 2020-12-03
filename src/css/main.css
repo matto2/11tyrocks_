@@ -365,7 +365,7 @@ h5 {
   font-weight: 600;
   font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif;
   line-height: 1.2;
-  color: #2030bc; }
+  color: #006580; }
   h1:not(:first-child),
   h2:not(:first-child),
   h3:not(:first-child),
@@ -410,10 +410,10 @@ h5 {
     font-size: 1.25rem; } }
 
 a {
-  color: #2030bc;
+  color: #006580;
   text-decoration: none; }
   a:hover, a:active, a:focus {
-    color: #201990;
+    color: #003B53;
     text-decoration: underline; }
 
 mark {
@@ -633,9 +633,9 @@ dd {
 .button, a.button, button, [type=submit], [type=reset], [type=button] {
   -webkit-appearance: none;
   display: inline-block;
-  border: 1px solid #2030bc;
+  border: 1px solid #006580;
   border-radius: 4px;
-  background: #2030bc;
+  background: #006580;
   color: #ffffff;
   font-weight: 600;
   font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -650,9 +650,9 @@ dd {
   line-height: 1; }
 
 .button:hover, a.button:hover, button:hover, [type=submit]:hover, [type=reset]:hover, [type=button]:hover {
-  /* border: 1px solid #201990; */
+  /* border: 1px solid #003B53; */
 
-  background: #201990;
+  background: #003B53;
   color: #ffffff;
   text-decoration: none; }
 
@@ -663,7 +663,7 @@ dd {
 
 
 
-  background: #201990;
+  background: #003B53;
   color: #ffffff;
   text-decoration: none; }
 
@@ -696,15 +696,15 @@ a.accent-button {
 .muted-button,
 a.muted-button {
   background: transparent;
-  border: 1px solid #2030BC;
-  color: #2030BC; }
+  border: 1px solid #006580;
+  color: #006580; }
   .muted-button:hover, .muted-button:focus, .muted-button:active,
   a.muted-button:hover,
   a.muted-button:active {
 
 
     color: #ffffff;
-    background: #2030BC; }
+    background: #006580; }
 
     a.muted-button:focus,
                 {
@@ -889,10 +889,38 @@ h3.with-deets {
 .disabled:focus {
   border: none;
   outline: none;
-  background-color: #2030bc;
-  border: 1px solid #2030bc;
+  background-color: #006580;
+  border: 1px solid #006580;
 }
 
 .button-large {
   font-size: 1.125rem;
 }
+
+.reg {
+  color: #404040;
+  background:#f7f7f7;
+  font-size: 1rem; }
+
+.regcard {
+  margin: auto;
+  max-width: 540px;
+  background-color: white;
+  padding: 3rem;
+}
+
+
+.disabled2 {
+  /* opacity: .2; */
+  pointer-events:none;
+  background-color: #B9EDEB;
+  border: none;
+  color: #006580;
+}
+
+.disabled2:focus {
+  border: none;
+  outline: none;
+  background-color:#B9EDEB;
+  color: #006580;
+x}
