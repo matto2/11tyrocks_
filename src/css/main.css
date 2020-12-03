@@ -924,3 +924,23 @@ h3.with-deets {
   background-color:#B9EDEB;
   color: #006580;
 x}
+
+.outline-button,
+a.outline-button {
+  color: #006580;
+  border: 1px solid #006580;
+  background: #ffffff; }
+  .outline-button:hover, .outline-button:focus, .outline-button:active,
+  a.outline-button:hover,
+  a.outline-button:focus,
+  a.outline-button:active {
+
+    color: #ffffff;
+    background: #006580; }
+
+    a.outline-button:focus,
+                     {
+  
+      border: 2px solid #FFFFFF;
+      outline: 2px solid dodgerblue;
+   }
